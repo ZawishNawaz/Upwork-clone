@@ -1,0 +1,226 @@
+/* header setting */
+header {
+    display: flex;
+    margin: 2px;
+    margin-left: 2%;
+    border-bottom: 1px solid #d9e5e7;
+}
+
+/* upwork logo setting */
+.logo {
+    color: #14A800;
+}
+
+/* right header */
+.right_header {
+    display: flex;
+}
+
+/* navbar link setting */
+.navbar_link {
+    display: flex;
+    list-style-type: none;
+    gap: 30px;
+    margin-top: 6%;
+    font-size: large;
+    font-weight: 400;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/* navbar link hover */
+.Color_change_on_click:hover {
+    color: #14A800;
+}
+
+/*  right side button  */
+.right_side_btn {
+    margin-top: 8px;
+    margin-left: 50px;
+}
+
+/* search engine */
+.search_engine {
+    width: 250px;
+    height: 35px;
+    border-radius: 50px;
+    border-color: #d9e5e7;
+    font-size: large;
+    padding-left: 20px;
+    color: #FFFFFF;
+}
+
+.search_engine:hover {
+
+    background-color: #d9e5e7;
+}
+
+/* log in button */
+.log_in_btn {
+    background: none;
+    border: none;
+    font-size: 20px;
+    padding-left: 40px;
+}
+
+/* sign up button  */
+.sign_up_btn {
+    background-color: 159915;
+    border-radius: 50px;
+    width: 100px;
+    height: 50px;
+    font-size: 20px;
+    color: #FFFFFF;
+    border: none;
+    margin-left: 40px;
+}
+
+/* sign up button hover */
+.sign_up_btn:hover {
+    background-color: #5eb55e;
+}
+
+/* bottom navbar  */
+.bottom_navbar {
+    display: flex;
+    list-style-type: none;
+    gap: 30px;
+    font-size: large;
+    font-weight: 200;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.bottom_line:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+/* globe image setting */
+img {
+    width: 80%;
+    height: 73%;
+    border-radius: 100px;
+    padding-right: 2%;
+}
+
+/* globe image */
+.globe img {
+    width: 450px;
+    height: 450px;
+}
+
+/*  text forget the rule */
+.Forget_the_rule {
+    color: #5E6D55;
+    font-size: 32px;
+    padding-left: 6%;
+    font-weight: 500;
+    font-family: Helvetica;
+}
+
+/* hero section */
+.hero_section {
+    display: flex;
+    justify-content: space-around;
+}
+
+/* text div */
+.textdiv {
+    color: #14A800;
+    font-size: 52px;
+    
+}
+.hero-heading{
+    padding-left: 20px;
+}
+
+.hero-btn {
+    background-color: #14A800;
+    color: #FFFFFF;
+    border-radius: 50px;
+    border: none;
+    margin-bottom: 40px;
+    padding: 10px 40px;
+    margin-left: 40px;
+}
+
+.hero-trust {
+    color: #63786b;
+    padding-left: 32px;
+}
+
+.hero_image {
+    display: flex;
+    width: 100px;
+    height: auto;
+    gap: 40px;
+}
+
+/* parent div coding  */
+.Parent-div-card {
+    padding-left: 80px;
+}
+
+/* block b heading div ,font size and bold*/
+.block-b-heading {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+/* block b text div, here using hover for color change and underline */
+.block-b-text {
+    color: #63786b;
+    font-size: 17px;
+}
+
+.block-b-span:hover {
+    color: #14A800;
+    text-decoration: underline;
+}
+
+/* using single name for all card  child card row so repeatition reduce */
+
+
+.child-card-column {
+    float: left;
+    width: 25%;
+    padding: 0 10px 20px;
+}
+
+.child-card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    /* this adds the "card" effect */
+    padding: 16px;
+    text-align: center;
+    background-color: #f1f1f1;
+}
+
+.child-card-title {
+    font-size: large;
+    font-weight: bold;
+}
+
+@media screen and (max-width: 600px) {
+    .child-card-column {
+        width: 100%;
+        display: block;
+        margin-bottom: 20px;
+    }
+}
+
+.Parent-div-card:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.Parent-div-card {
+    margin: 0 -5px;
+
+}
+
+* {
+    box-sizing: border-box;
+}
+.child-card:hover{
+   background-color: #6b7664;
+}
